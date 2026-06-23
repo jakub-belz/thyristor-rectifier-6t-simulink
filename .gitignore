@@ -1,0 +1,32 @@
+# MATLAB / Simulink generated files
+slprj/
+*.slxc
+*.asv
+*.m~
+*.autosave
+*.mex*
+*.mexw*
+*.mexa*
+*.mexmaci64
+
+# Simulink cache and temporary files
+*.log
+*.tmp
+*.bak
+
+# MATLAB project/cache
+*.prj~
+resources/project/*.xml
+.settings/
+
+# Large generated simulation files
+results/*.mat
+
+# Keep selected results
+!results/summary.csv
+!results/figures/
+!results/figures/*.png
+
+# OS files
+.DS_Store
+Thumbs.db
